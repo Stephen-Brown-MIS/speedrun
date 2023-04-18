@@ -1,0 +1,116 @@
+@charset "ISO-8859-1";
+
+
+body1{
+	background-image:url("/images/food.png");
+	background-repeat: no-repeat;
+	background-size:cover; 
+}
+
+.white {
+	background-color:white;
+}
+
+
+h1,
+h3,
+h4,
+h6,
+p  {
+	margin-top: 20px;
+	
+	}
+
+.gray {
+	margin: 10px;
+	padding:20px;
+	background-color: lightgrey;
+}
+.white {
+	background-color: transparent;
+	color:white;
+	border-color: white;
+	border: 0px;
+	border-radius: 100%;
+	}
+
+.form1 {
+	padding:20px;
+	margin:20px;
+}
+
+.button1 {
+	width: 100px;
+	display:inline-block;
+}
+
+.button2 {
+	margin: 20px;
+}
+
+.btn {
+	margin-top: 20px;
+}
+.outline {
+	border-style: solid;
+	border-color: lightgrey;
+	margin: 10px;
+	padding:20px;
+	
+	
+}
+
+.noborder{
+	border-color : white;
+
+}
+
+.wordwrap {
+    width: 200px;
+    word-wrap: break-word;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: light-gray;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+a {
+	color: green;
+}
+
+
+th {
+	color: gray;
+}
+
+.flex-row {
+	flex-direction: row;
+}
+
+li {
+	display:inline-block;
+}
